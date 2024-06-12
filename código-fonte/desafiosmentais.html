@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Desafios Mentais</title>
+    <link rel="stylesheet" type="text/css" href="desafiosmentais.css"><!-- link de ligação css com html-->
+
+</head>
+<body>
+  <header class="cabecalho"> <!--Inicio do código cabeça/menu-->
+    <a href="homepage.html">
+        <img class="cabecalho-logo"
+            src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/main/código-fonte/IMG/Titulo%20DesaafioEvolutivo.png"
+            alt="Desafio Evolutivo">
+    </a>
+    <nav class="cabecalho-menu">
+        <a class="cabecalho-menu-item" href="progresso.html">Progresso</a>
+        <a class="cabecalho-menu-item" href="homepage.HTML">Novos Desafios</a>
+        <a class="cabecalho-menu-item" href="avaliacoes.html">Avaliações</a>
+    </nav>
+    <div class="cabecalho-icones"> <!--Div criada para que os dois ícones possam ficar proximos.-->
+
+
+        <a href="areadousuario.html">
+            <img class="cabecalho-avatar"
+                src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/main/código-fonte/IMG/avatar.png"
+                alt="Icone Avatar Perfil"><!--Avatar do perfil onde o link deverá levar para o perfil, possibilitando mudanças no cadastro-->
+        </a>
+    </div>
+</header>
+
+  
+  <main class="conteudo"><!--Inicio do codigo meio/corpo, onde encontra toda a parte central, dividida em sessões.-->
+    <div class="title-container">
+    
+    </div>
+    <H1 class="conteudo-principal-titulo">Desafios Mentais</H1>
+    <div class="conteudo-principal">
+      <div class="tablet-screen">
+        <img class="conteudo-principal-imagem" src="IMG/leitura.jpg" alt="Pessoa Lendo">
+        <h3 class="conteudo-principal-subtitulo"><strong>Leitura</strong></h3>
+        <p class="text">"Explore novos mundos através das palavras, todos os dias."</p>
+        <p class="conteudo-principal-subtitulo"><strong>Nivel: Fácil</strong></p>
+        <button class="conteudo-secundario-escrito-botao-principal">Saiba Mais</button>
+      </div>
+      <div class="tablet-screen">
+        <img class="conteudo-principal-imagem" src="IMG/memorização.jpg" alt="Pessoa Memorizando" >
+        <h3 class="conteudo-principal-subtitulo"><strong>Memorização</strong></h3>
+        <p class="text">"Fortaleça sua mente, lembre-se de mais, esqueça menos."</p>
+        <p class="conteudo-principal-subtitulo"><strong>Nivel: Médio</strong></p>
+        <button class="conteudo-secundario-escrito-botao-principal">Saiba Mais</button>
+      </div>
+      <div class="tablet-screen">
+        <img class="conteudo-principal-imagem" src="IMG/raciocinio logico.jpg" alt="Pessoa Raciociniando" >
+        <h3 class="conteudo-principal-subtitulo"><strong>Raciocínio Lógico</strong></h3>
+        <p class="text">"Desperte seu pensamento crítico, supere desafios de raciocínio."</p>
+        <p class="conteudo-principal-subtitulo"><strong>Nivel: Difícil</strong></p>
+        <button class="conteudo-secundario-escrito-botao-principal">Saiba Mais</button>
+      </div>
+    </div>
+
+  </main>
+  <script>
+    // Função para carregar a imagem de perfil do local storage
+  function carregarImagemDePerfil() {
+      const fotosalva = localStorage.getItem("profilepic");
+    
+      if (fotosalva) {
+        const avatar = document.querySelector(".cabecalho-avatar");
+        avatar.src = fotosalva;
+         }
+    }
+   // Selecionando o elemento
+  // Selecionando o elemento
+  
+    // Carregar dados do local storage e imagem de perfil quando a página é carregada
+    window.onload = function () {
+      carregarImagemDePerfil();
+      
+    };
+  </script>
+  <footer >
+    <p>Copyright &copy; 2024 Desafio Evolutivo. Todos os direitos reservados.</p>
+  </footer><!--Espaço reservado para nosso rodapé-->
+      
+</body>
+</html>

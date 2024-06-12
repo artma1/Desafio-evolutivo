@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Apple System, Helvetica Neue, Segoe UI, Arial, Lato e Sans Serif;
+}
+
+body {
+  height: 120vh;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+/*EDIÇÃO CABEÇALHO*/
+header {
+  background-color: #37853c;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4px;
+  background-color: #37853c;
+  height: none
+}
+
+.cabecalho-logo {
+  height: 40px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 40px;
+}
+
+/*BOTÕES DE NAVEGAÇÃO*/
+.cabecalho-menu-item {
+  font-family: 'Lato', sans-serif;
+  color: #FFF2E7;
+  margin-top: 10px;
+  font-weight: 400px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.cabecalho-avatar {
+  height: 50px;
+}
+
+.cabecalho-sino {
+  height: 50px;
+}
+
+.h1 {
+  position: absolute;
+  top: 10rem;
+  left: 50rem;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cabecalho-avatar {
+  height: 50px;
+  border-radius: 80%;
+}
+
+.Corrida p {
+  position: absolute;
+  color: black;
+  top: 40vh;
+  left: 30%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 250%;
+}
+
+.Corrida img {
+  position: absolute;
+  width: 10rem;
+  height: auto;
+  top: 37vh;
+  left: 20%;
+}
+
+.Corrida-checked {
+  display: flex;
+  position: absolute;
+  top: 42vh;
+  left: 100vh;
+  font-size: x-large;
+  z-index: 1;
+  /* Certifique-se de que as estrelas estão acima da imagem */
+}
+
+.Corrida-checked img {
+  position: absolute;
+  width: 30rem;
+  top: -9.1vh;
+  right: -7.9vh;
+  z-index: 0;
+  /* Certifique-se de que a imagem está abaixo das estrelas */
+}
+
+.Meditação p {
+  position: absolute;
+  color: black;
+  top: 62vh;
+  left: 30%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 250%;
+}
+
+.Meditação img {
+  position: absolute;
+  width: 12rem;
+  height: auto;
+  top: 55vh;
+  left: 19%;
+}
+
+.Meditação-checked {
+  display: flex;
+  position: absolute;
+  top: 62vh;
+  left: 100vh;
+  font-size: x-large;
+  z-index: 1;
+  /* Certifique-se de que as estrelas estão acima da imagem */
+}
+
+.Meditação-checked img {
+  position: absolute;
+  width: 30rem;
+  top: -9.1vh;
+  right: -7.9vh;
+  z-index: 0;
+  /* Certifique-se de que a imagem está abaixo das estrelas */
+}
+
+.star-icon {
+  list-style-type: none;
+  border: 1px solid #fff;
+  cursor: pointer;
+  color: #ffe500;
+  font-size: 40px;
+  /* alterar o tamanho das estrelas */
+  z-index: 2;
+  /* Certifique-se de que as estrelas estão acima da imagem */
+}
+
+.star-icon::before {
+  content: "\2605";
+}
+
+.star-icon.ativo::before {
+  content: "\2605";
+  color: #ffcc00;
+}
+
+.star-icon.inativo::before {
+  content: "\2606";
+}
+
+.rodapé {
+  background-color: #37853c;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid #FFF2E7;
+  padding: 0.2px;
+}
