@@ -44,8 +44,5 @@ Para testar o funcionamento da API e servidor:
 A aplicação em HTML/CSS/JS é um projeto que pode ser utilizado tanto em servidores como em navegadores web. Clique <a href= https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/>"aqui"</a> para acessá-lo.
 # Código
 
-<li><a href="/código-fonte"> Código Fonte</a></li>
+<li><a href="/src"> Código Fonte</a></li>
 
-# Apresentação
-
-<li><a href="presentation/README.md"> Apresentação da solução</a></li>
