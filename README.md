@@ -38,7 +38,6 @@ Para testar o funcionamento da <a href ="src/inscricaodesafio.JS"> API </a> e <a
 <li><a href="docs/07-Plano de Testes de Software.md"> Plano de Testes de Software</a></li>
 <li><a href="docs/08-Registro de Testes de Software.md"> Registro de Testes de Software</a></li>
 <li><a href="docs/09-Referências.md"> Referências</a></li>
-<li><a href="presentation/10-Apresentação do Projeto.md"> Apresentação do Projeto</a></li>
 </ol>
 
 # Hospedagem
