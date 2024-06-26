@@ -4,7 +4,7 @@ Para utilizar a aplicação web o usuário deverá, de posse do código, primeir
 
 ## Estratégia de Organização de Codificação
 
-
+A estratégia tomada pelo grupo é separar as telas da aplicação web por pastas no github com o respectivo nome da tela. Cada integrante do grupo vai atualizando sua parte do código no repositório à medida em que avança, gerando transparência nas tarefas e colaboração de todos os membros em todas as telas e tarefas.
 
 ## Instalação do Site
 
