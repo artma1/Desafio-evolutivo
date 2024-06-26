@@ -8,23 +8,22 @@
 
 O projeto desenvolvido é uma aplicação web front-end onde o usuário terá acesso a desafios diários a serem feitos no campo do desenvolvimento pessoal. 
 
-## Integrantes
-
-* Artur Maciel 
-* Gabriel de Jesus Almeida
-* Gustavo Paz
-* Gabriel Estabanez
-* Enzo Gabriel
-* Giuseppe Maida
-* Sharon Steicy
-
-## Orientador
-
-* Viviâne de Almeida Tôrres
-
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Abrir o seguinte link da realização de cadastro/login: <a href = "https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/index.html"> Cadastro </a>
+
+Ou se quiser, já abrir a home page: <a href = "https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/homepage.html"> Home </a>
+
+Para testar o funcionamento da API e servidor:
+
+<li>Instale o Node.js</li>
+<li>Abra o terminal do vs code</li>
+<li>No local desse arquivo, digite: npm install nodemailer cors body-parser express</li>
+<li>Com os módulos acima instalados, rode o servidor (run current file)</li>
+<li>Com o servidor ligado, se cadastre em um desafio e retorna à home page</li>
+<li>No console você deverá receber aviso de servidor rodando na porta 3000</li>
+<li>Aviso de dados recebidos com o JSON que veio do cliente</li>
+<li>Aviso recebido de email enviado.</li>
 
 # Documentação
 
