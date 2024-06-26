@@ -14,7 +14,7 @@ Abrir o seguinte link da realização de cadastro/login: <a href = "https://icei
 
 Ou se quiser, já abrir a home page: <a href = "https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/homepage.html"> Home </a>
 
-Para testar o funcionamento da API e servidor:
+Para testar o funcionamento da <a href ="src/inscricaodesafio.JS"> API </a> e <a href= "src/EnviodeLembretes(servidor).js"> servidor</a>:
 
 <li>Instale o Node.js</li>
 <li>Abra o terminal do vs code</li>
@@ -24,6 +24,7 @@ Para testar o funcionamento da API e servidor:
 <li>No console você deverá receber aviso de servidor rodando na porta 3000</li>
 <li>Aviso de dados recebidos com o JSON que veio do cliente</li>
 <li>Aviso recebido de email enviado.</li>
+<li>Se não funcionar, revise os passos acima e reinicie o VScode</li>
 
 # Documentação
 
