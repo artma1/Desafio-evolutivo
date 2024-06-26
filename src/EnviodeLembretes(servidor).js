@@ -47,14 +47,14 @@ app.post('/receber-dados', (req, res) => {
 
 let mailOptions = {
     from: 'desafioevolutivo30@gmail.com',
-    to: 'arturma30@gmail.com, desafioevolutivoteste@gmail.com, ' + emailrecebido, 
+    to:  emailrecebido, 
     subject: 'Desafio Evolutivo! \u{1F525}',
     text: 'Olá! \n\nNão se esqueça de realizar seus desafios todos os dias! \n\nGrandes conquistas começam em pequenas ações!'
 };
 
 let mailOptions2 = {
   from: 'desafioevolutivo30@gmail.com',
-  to: 'arturma30@gmail.com, desafioevolutivoteste, ' + emailrecebido, 
+  to: emailrecebido, 
   subject: 'Desafio Evolutivo! \u{1F525}',
   text: 'Olá! \n\nNão se esqueça de realizar seu desafio hoje! \n\nGrandes conquistas começam em pequenas ações!'
 };
@@ -64,11 +64,6 @@ let mailOptions2 = {
 const meiodia = new Date();
 meiodia.setHours(12, 0, 0);
 
-//if (new Date() > meiodia && new Date() !== lastChallengeDate && 1 <= contador < 30) { <- exemplo de 
-//lógica integrando os valores do frontend
-
-// Enviar o e-mail e escrever no log que foi enviado
-// essa condição representa o caso de o usuário não ter feito o desafio até meio dia
 if (new Date() > meiodia) {
 transporter.sendMail(mailOptions2, function(error, info){
     if (error) {
