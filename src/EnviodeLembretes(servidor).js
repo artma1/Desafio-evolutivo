@@ -39,7 +39,7 @@ app.post('/receber-dados', (req, res) => {
     service: 'Gmail',  
     auth: {
         user: 'desafioevolutivo30@gmail.com',
-        pass: 'ysec mpmt gqbn ijyb' , //app password da google ysec mpmt gqbn ijyb
+        pass: 'xxxx xxxx xxxx xxxx' , //app password da google
     }
 });
 
